@@ -42,9 +42,6 @@
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
@@ -97,25 +94,6 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Education</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Washtenaw Alliance Virtual Education</h3>
-            <div class="subheading mb-3">Ypsilanti Public Schools</div>
-            <div>Online school I graduated from</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">June 2017</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div class="w-100">
         <h2 class="mb-5">Skills</h2>
@@ -123,28 +101,28 @@
         <div class="subheading mb-3">Programming Languages &amp; Tools</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
+            <i class="fab fa-html5" style="color: #E96228;"></i>
           </li>
-          <li class="list-inline-item">
+          <li class="list-inline-item" style="color: #007bff;">
             <i class="fab fa-css3-alt"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
+            <i class="fab fa-js-square" style="color: #F0DB50;"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-react"></i>
+            <i class="fab fa-react" style="color: #5FD4F4;"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
+            <i class="fab fa-sass" style="color: #C86495;"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fas fa-cube"></i>
+            <i class="fas fa-cube" style="color: #D7A675;"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
+            <i class="fab fa-npm" style="color: #C60A00;"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-git-alt"></i>
+            <i class="fab fa-git-alt" style="color: #EA4E31;"></i>
           </li>
         </ul>
         <div class="subheading mb-3">Workflow</div>
@@ -315,35 +293,46 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="contact">
       <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Google Analytics Certified Developer</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Mobile Web Specialist - Google Certification</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            2<sup>nd</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - James Buchanan High School - Hackathon 2006</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            3<sup>rd</sup>
-            Place - James Buchanan High School - Hackathon 2005</li>
-        </ul>
+        <h2 class="mb-5">Contact Me</h2>
+        <div class="formBox">
+          <form action="https://formspree.io/xqkyzpzb" method="POST">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="inputBox ">
+                  <input type="text" name="firstname" class="input" placeholder="First Name">
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="inputBox">
+                  <input type="text" name="lastname" class="input" placeholder="Last Name">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="inputBox">
+                  <input type="email" name="email" class="input" placeholder="Email">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="inputBox">
+                  <textarea class="input" placeholder="Message" name="message"></textarea>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <input type="submit" name="send" class="button-form" value="Send Message">
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </section>
 
