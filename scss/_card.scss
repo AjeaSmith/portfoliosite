@@ -24,6 +24,7 @@ $default: #17a2b8;
         -o-transition: all .3s linear 0s;
         transition: all .3s linear 0s;
         margin-bottom: 2em;
+        margin-right: 2em;
 
         &:nth-of-type(1) {
             @media(min-width:832px) {
